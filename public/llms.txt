@@ -7,33 +7,33 @@
 ## Pages
 
 ### בית
-https://-70211eec.zappy5.app
+https://example.com
 פרד&quot;ס חקירות: חברת חקירות פרטיות לעסקים ברמה מודיעינית עילית. בדיקות נאותות, מודיעין עסקי וחקירות כלכליות עם דיסקרטיות מלאה. גלו את האמת עוד היום.
 
 ### שירותים
-https://-70211eec.zappy5.app/services
+https://example.com/services
 מגוון שירותי חקירה ומודיעין עסקי מתקדמים: בדיקות נאותות, חקירות כלכליות, OSINT ואיסוף מידע אסטרטגי. פתרונות מדויקים לעסקים, משרדי עורכי דין ולקוחות פרטיים.
 
 ### אודות
-https://-70211eec.zappy5.app/about
+https://example.com/about
 יאיר בלום וצוות אנליסטים ממערכת הביטחון עומדים מאחורי פרד&quot;ס חקירות. רישיון ממשרד המשפטים, מתודולוגיה מודיעינית ומקצועיות ללא פשרות בכל חקירה פרטית ועסקית.
 
 ### צור קשר
-https://-70211eec.zappy5.app/contact
+https://example.com/contact
 צרו קשר עם פרד&quot;ס חקירות לייעוץ ראשוני חסוי ומחייב. מומחים בחקירות כלכליות, בדיקות נאותות ומודיעין עסקי עומדים לרשותכם. כל פנייה מטופלת בדיסקרטיות מלאה.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-70211eec.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-70211eec.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-70211eec.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -43,8 +43,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://-70211eec.zappy5.app/contact
-- Endpoint: https://-70211eec.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -78,6 +78,6 @@ Private Investigation & Business Intelligence
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-70211eec.zappy5.app/sitemap.xml
-- Robots: https://-70211eec.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-70211eec.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
