@@ -569,6 +569,427 @@
   }
 }
 </style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.about-hero-section {
+  position: relative;
+  overflow: visible;
+  background-color: #0D0F14;
+  background-image:
+    radial-gradient(ellipse at 70% 20%, rgba(200,168,75,0.06) 0%, transparent 55%),
+    radial-gradient(ellipse at 10% 80%, rgba(0,212,255,0.04) 0%, transparent 50%),
+    linear-gradient(160deg, #0D0F14 0%, #111318 60%, #0D0F14 100%);
+  color: var(--text-light);
+  padding: 140px 24px 80px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: Inter, system-ui, sans-serif;
+  direction: rtl;
+}
+
+/* Crosshair decorative motif */
+.about-hero-section .about-hero-crosshair {
+  position: absolute;
+  top: 80px;
+  inset-inline-start: 60px;
+  width: 180px;
+  height: 180px;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 1;
+}
+
+.about-hero-section .about-hero-crosshair svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Dot grid pattern */
+.about-hero-section .about-hero-dot-pattern {
+  position: absolute;
+  bottom: 0;
+  inset-inline-start: 0;
+  width: 420px;
+  height: 420px;
+  background-image: radial-gradient(circle, rgba(200,168,75,0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Main container */
+.about-hero-section .about-hero-container {
+  position: relative;
+  z-index: 10;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  direction: rtl;
+}
+
+/* ---- RIGHT SIDE: Content ---- */
+.about-hero-section .about-hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  text-align: right;
+}
+
+.about-hero-section .about-hero-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #C8A84B;
+  margin-bottom: 18px;
+  opacity: 0.9;
+}
+
+.about-hero-section .about-hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  color: var(--text-light);
+  margin: 0 0 20px 0;
+}
+
+.about-hero-section .about-hero-gold-rule {
+  margin-bottom: 24px;
+  display: block;
+}
+
+.about-hero-section .about-hero-subtitle {
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--text-light);
+  margin: 0 0 18px 0;
+  opacity: 0.92;
+}
+
+.about-hero-section .about-hero-body {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #A0A5B4;
+  margin: 0 0 36px 0;
+  max-width: 520px;
+}
+
+/* Trust badges */
+.about-hero-section .about-hero-badges {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.about-hero-section .about-hero-badge {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  align-items: center;
+  gap: 14px;
+  background: rgba(200,168,75,0.06);
+  border: 1px solid rgba(200,168,75,0.15);
+  border-radius: 6px;
+  padding: 14px 16px;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.about-hero-section .about-hero-badge:hover {
+  border-color: rgba(200,168,75,0.35);
+  background: rgba(200,168,75,0.10);
+}
+
+.about-hero-section .about-hero-badge .badge-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(200,168,75,0.08);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.about-hero-section .about-hero-badge .badge-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: right;
+}
+
+.about-hero-section .about-hero-badge .badge-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-light);
+  line-height: 1.3;
+}
+
+.about-hero-section .about-hero-badge .badge-sub {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #8A8F9E;
+  letter-spacing: 0.02em;
+}
+
+/* CTAs */
+.about-hero-section .about-hero-ctas {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-hero-section .about-btn-primary {
+  background: #C8A84B;
+  color: #0D0F14;
+  padding: 14px 32px;
+  border-radius: 4px;
+  border: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 8px 32px rgba(200,168,75,0.3);
+}
+
+.about-hero-section .about-btn-primary:hover {
+  background: #E8C55A;
+  box-shadow: 0 12px 40px rgba(200,168,75,0.45);
+  transform: translateY(-2px);
+}
+
+.about-hero-section .about-btn-secondary {
+  background: transparent;
+  color: #ffffff;
+  padding: 14px 24px;
+  border-radius: 4px;
+  border: 1px solid rgba(255,255,255,0.3);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.about-hero-section .about-btn-secondary:hover {
+  border-color: rgba(200,168,75,0.6);
+  color: #C8A84B;
+}
+
+/* ---- LEFT SIDE: Image ---- */
+.about-hero-section .about-hero-image-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-hero-section .about-hero-image-inner {
+  position: relative;
+  width: 100%;
+  max-width: 580px;
+  border-radius: 2px;
+  overflow: hidden;
+  filter: grayscale(15%) contrast(1.08);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.65), 0 0 0 1px rgba(200,168,75,0.18);
+}
+
+.about-hero-section .about-hero-image-inner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 620/720;
+}
+
+/* Image overlay for cinematic tone */
+.about-hero-section .about-hero-img-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(13,15,20,0.15) 0%,
+    rgba(13,15,20,0.05) 40%,
+    rgba(13,15,20,0.45) 100%
+  );
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Gold corner accents */
+.about-hero-section .about-hero-img-corner-tl {
+  position: absolute;
+  top: -1px;
+  inset-inline-end: -1px;
+  width: 32px;
+  height: 32px;
+  border-top: 2px solid #C8A84B;
+  border-inline-end: 2px solid #C8A84B;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.about-hero-section .about-hero-img-corner-br {
+  position: absolute;
+  bottom: -1px;
+  inset-inline-start: -1px;
+  width: 32px;
+  height: 32px;
+  border-bottom: 2px solid #C8A84B;
+  border-inline-start: 2px solid #C8A84B;
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* Floating stat badge */
+.about-hero-section .about-hero-stat-badge {
+  position: absolute;
+  bottom: 36px;
+  inset-inline-end: -24px;
+  background: #C8A84B;
+  color: #0D0F14;
+  padding: 16px 22px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  box-shadow: 0 8px 32px rgba(200,168,75,0.4);
+  z-index: 20;
+}
+
+.about-hero-section .about-hero-stat-badge .stat-num {
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #0D0F14;
+}
+
+.about-hero-section .about-hero-stat-badge .stat-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #0D0F14;
+  white-space: nowrap;
+}
+
+/* ==============================
+   RESPONSIVE — MOBILE
+============================== */
+@media (max-width: 1024px) {
+  .about-hero-section .about-hero-container {
+    gap: 40px;
+  }
+  .about-hero-section .about-hero-title {
+    font-size: 2.8rem;
+  }
+  .about-hero-section .about-hero-stat-badge {
+    inset-inline-end: 0;
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero-section {
+    padding: 110px 16px 60px;
+    min-height: auto;
+  }
+
+  .about-hero-section .about-hero-container {
+    grid-template-columns: 1fr !important;
+    gap: 40px;
+    direction: rtl;
+  }
+
+  .about-hero-section .about-hero-content {
+    
+  }
+
+  .about-hero-section .about-hero-image-wrap {
+    
+  }
+
+  .about-hero-section .about-hero-title {
+    font-size: 2.4rem;
+  }
+
+  .about-hero-section .about-hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .about-hero-section .about-hero-body {
+    max-width: 100%;
+  }
+
+  .about-hero-section .about-hero-stat-badge {
+    position: static;
+    align-self: flex-end;
+    margin-top: 12px;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 12px 18px;
+  }
+
+  .about-hero-section .about-hero-stat-badge .stat-num {
+    font-size: 1.4rem;
+  }
+
+  .about-hero-section .about-hero-crosshair {
+    width: 100px;
+    height: 100px;
+    top: 60px;
+    inset-inline-start: 10px;
+  }
+
+  .about-hero-section .about-hero-dot-pattern {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-hero-section .about-hero-ctas {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .about-hero-section .about-btn-primary,
+  .about-hero-section .about-btn-secondary {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+/* ZAPPY_POSTGEN_GUARD_RTL_ORDER:אודות-hero — stripped 2 order declaration(s) conflicting with RTL grid */
+
+/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:about-hero */
+.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 48px !important; line-height: 1.2 !important; }
+@media (max-width: 1024px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 36px !important; }
+}
+@media (max-width: 768px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
+}
+
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "70211eec-1fe4-469a-bf33-9891dd7a3035"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -1130,86 +1551,105 @@
 </script>
   
   <main id="main">
-    <section class="about-hero-section" data-layout-spec="אודות-hero" dir="rtl" data-hero-type="fullscreen-scrim">
-  <!-- Background Image -->
-  <div class="about-hero-bg">
-    
-  </div>
-
-  <!-- Scrim Overlay -->
-  <div class="about-hero-scrim" aria-hidden="true"></div>
-
-  <!-- Crosshair Decorative Motif -->
+    <section class="about-hero-section" data-layout-spec="אודות-hero" dir="rtl" data-hero-type="side-by-side">
+  <!-- Decorative crosshair motif -->
   <div class="about-hero-crosshair" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" width="180" height="180">
-      <circle cx="90" cy="90" r="70" stroke="#C8A84B" stroke-width="1" stroke-opacity="0.18"></circle>
-      <circle cx="90" cy="90" r="45" stroke="#C8A84B" stroke-width="0.75" stroke-opacity="0.12"></circle>
-      <line x1="90" y1="0" x2="90" y2="40" stroke="#C8A84B" stroke-width="1" stroke-opacity="0.2"></line>
-      <line x1="90" y1="140" x2="90" y2="180" stroke="#C8A84B" stroke-width="1" stroke-opacity="0.2"></line>
-      <line x1="0" y1="90" x2="40" y2="90" stroke="#C8A84B" stroke-width="1" stroke-opacity="0.2"></line>
-      <line x1="140" y1="90" x2="180" y2="90" stroke="#C8A84B" stroke-width="1" stroke-opacity="0.2"></line>
-      <circle cx="90" cy="90" r="3" fill="#C8A84B" fill-opacity="0.25"></circle>
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="90" cy="90" r="70" stroke="#C8A84B" stroke-width="1" opacity="0.18"></circle>
+      <circle cx="90" cy="90" r="40" stroke="#C8A84B" stroke-width="0.8" opacity="0.14"></circle>
+      <line x1="90" y1="0" x2="90" y2="40" stroke="#C8A84B" stroke-width="1" opacity="0.2"></line>
+      <line x1="90" y1="140" x2="90" y2="180" stroke="#C8A84B" stroke-width="1" opacity="0.2"></line>
+      <line x1="0" y1="90" x2="40" y2="90" stroke="#C8A84B" stroke-width="1" opacity="0.2"></line>
+      <line x1="140" y1="90" x2="180" y2="90" stroke="#C8A84B" stroke-width="1" opacity="0.2"></line>
+      <circle cx="90" cy="90" r="4" fill="#C8A84B" opacity="0.25"></circle>
     </svg>
   </div>
 
-  <!-- Dot Grid Decorative Motif -->
-  <div class="about-hero-dotgrid" aria-hidden="true"></div>
+  <!-- Dot grid pattern -->
+  <div class="about-hero-dot-pattern" aria-hidden="true"></div>
 
-  <!-- Content -->
   <div class="about-hero-container">
-    <!-- Breadcrumb / Label -->
-    <div class="about-hero-label">
-      <span class="about-hero-label-line" aria-hidden="true"></span>
-      <span class="about-hero-label-text">אודות המשרד</span>
+    <!-- RIGHT SIDE: Text content -->
+    <div class="about-hero-content">
+      <div class="about-hero-label">פרד"ס חקירות | חברת חקירות פרטיות מורשית</div>
+      <h1 class="about-hero-title">מי אנחנו</h1>
+      <div class="about-hero-gold-rule" aria-hidden="true">
+        <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 12" fill="none" xmlns="http://www.w3.org/2000/svg" width="120" height="12">
+          <line x1="0" y1="6" x2="50" y2="6" stroke="#C8A84B" stroke-width="1" opacity="0.8"></line>
+          <polygon points="60,2 64,6 60,10 56,6" fill="#C8A84B" opacity="0.85"></polygon>
+          <line x1="70" y1="6" x2="120" y2="6" stroke="#C8A84B" stroke-width="1" opacity="0.8"></line>
+        </svg>
+      </div>
+      <h3 class="about-hero-subtitle">חברת חקירות פרטיות ומודיעין עסקי ברמה עילית — מורשית על ידי משרד המשפטים, בהובלת חוקר פרטי מוסמך ואנשי מודיעין מהדרגה הראשונה.</h3>
+      <p class="about-hero-body">אנו משלבים כלי OSINT מתקדמים, ניתוח אסטרטגי ועומק מקצועי מהקהילה הביטחונית הישראלית — לצד שיקול דעת מוחלט ורמת דיוק שאין שניה לה. משרתים תאגידים, לשכות עורכי דין ולקוחות פרטיים, בארץ ובעולם.</p>
+
+      <!-- Trust badges -->
+      <div class="about-hero-badges">
+        <div class="about-hero-badge">
+          <div class="badge-icon">
+            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+              <path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V7L12 2z" stroke="#C8A84B" stroke-width="1.5" fill="none"></path>
+              <path d="M9 12l2 2 4-4" stroke="#C8A84B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </div>
+          <div class="badge-text">
+            <span class="badge-title">מורשה משרד המשפטים</span>
+            <span class="badge-sub">רישיון חוקר פרטי</span>
+          </div>
+        </div>
+        <div class="about-hero-badge">
+          <div class="badge-icon">
+            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+              <circle cx="12" cy="12" r="9" stroke="#C8A84B" stroke-width="1.5"></circle>
+              <path d="M12 7v5l3 3" stroke="#C8A84B" stroke-width="1.5" stroke-linecap="round"></path>
+            </svg>
+          </div>
+          <div class="badge-text">
+            <span class="badge-title">ניסיון מודיעיני עמוק</span>
+            <span class="badge-sub">קהילת הביטחון הישראלית</span>
+          </div>
+        </div>
+        <div class="about-hero-badge">
+          <div class="badge-icon">
+            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+              <path d="M3 12h18M12 3l9 9-9 9" stroke="#C8A84B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </div>
+          <div class="badge-text">
+            <span class="badge-title">פעילות בינלאומית</span>
+            <span class="badge-sub">מקומי ובינלאומי</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTAs -->
+      <div class="about-hero-ctas">
+        <a href="/contact" class="btn-primary about-btn-primary">צרו קשר עכשיו</a>
+        <a href="/services" class="btn-secondary about-btn-secondary">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+            <path d="M15 19l-7-7 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          השירותים שלנו
+        </a>
+      </div>
     </div>
 
-    <!-- Main Heading -->
-    <h1 class="about-hero-title">מי אנחנו</h1>
-
-    <!-- Gold Rule -->
-    <div class="about-hero-rule" aria-hidden="true">
-      <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 12" fill="none" xmlns="http://www.w3.org/2000/svg" width="120" height="12">
-        <line x1="0" y1="6" x2="50" y2="6" stroke="#C8A84B" stroke-width="1" stroke-opacity="0.7"></line>
-        <rect x="53" y="3" width="6" height="6" transform="rotate(45 56 6)" fill="#C8A84B" fill-opacity="0.8"></rect>
-        <line x1="62" y1="6" x2="120" y2="6" stroke="#C8A84B" stroke-width="1" stroke-opacity="0.7"></line>
-      </svg>
-    </div>
-
-    <!-- Subtitle -->
-    <h3 class="about-hero-subtitle">משרד חקירות ומודיעין עסקי מתקדם — דיסקרטיות, דיוק ומקצוענות ברמה הגבוהה ביותר</h3>
-
-    <!-- Meta Info Strip -->
-    <div class="about-hero-meta">
-      <div class="about-hero-meta-item">
-        <svg data-element-type="icon" data-icon-type="svg" aria-hidden="true" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-          <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5"></circle>
-          <path d="M10 6v4l2.5 2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-        </svg>
-        <span>מורשה משרד המשפטים</span>
+    <!-- LEFT SIDE: Image -->
+    <div class="about-hero-image-wrap">
+      <div class="about-hero-image-inner">
+        <img data-context="A cinematic, atmospheric private investigation and intelligence office environment at night. No people, no faces, no text, no logos. Dark noir aesthetic with dramatic gold and teal accent lighting. Shows a sophisticated command center or analyst workspace: multiple screens with abstract data visualizations, maps, network graphs. Dark wood desk with classified folders, a premium pen, encrypted communication device. Moody shadows, warm gold desk lamp glow, cool blue screen light. High-end, elite intelligence consultancy feel. Ultra-realistic photography style." width="620" height="720" src="/assets/private-investigation-business-intelligence-section-אודות-hero-about-hero-image-1.webp" alt="סביבת עבודה של חדר מבצעים ומודיעין עסקי — פרד&quot;ס חקירות">
+        <!-- Gold corner accent -->
+        <div class="about-hero-img-corner-tl" aria-hidden="true"></div>
+        <div class="about-hero-img-corner-br" aria-hidden="true"></div>
+        <!-- Subtle image overlay -->
+        <div class="about-hero-img-overlay" aria-hidden="true"></div>
       </div>
-      <div class="about-hero-meta-divider" aria-hidden="true"></div>
-      <div class="about-hero-meta-item">
-        <svg data-element-type="icon" data-icon-type="svg" aria-hidden="true" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-          <path d="M10 2L12.09 7.26L17.66 7.27L13.28 10.74L14.9 16.18L10 13L5.1 16.18L6.72 10.74L2.34 7.27L7.91 7.26L10 2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
-        </svg>
-        <span>ניסיון מערכת הביטחון</span>
-      </div>
-      <div class="about-hero-meta-divider" aria-hidden="true"></div>
-      <div class="about-hero-meta-item">
-        <svg data-element-type="icon" data-icon-type="svg" aria-hidden="true" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-          <path d="M3 10C3 6.13 6.13 3 10 3s7 3.13 7 7-3.13 7-7 7-7-3.13-7-7z" stroke="currentColor" stroke-width="1.5"></path>
-          <path d="M10 3c0 0 3 3.5 3 7s-3 7-3 7M10 3c0 0-3 3.5-3 7s3 7 3 7M3 10h14" stroke="currentColor" stroke-width="1.2" stroke-opacity="0.7"></path>
-        </svg>
-        <span>חקירות בארץ ובחו"ל</span>
+      <!-- Floating stat badge -->
+      <div class="about-hero-stat-badge">
+        <span class="stat-num">20+</span>
+        <span class="stat-label">שנות ניסיון</span>
       </div>
     </div>
-  </div>
-
-  <!-- Bottom Divider -->
-  <div class="about-hero-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,60 L0,30 Q150,15 300,28 T600,22 Q750,18 900,26 T1200,20 L1200,60 Z" fill="#0D0F14"></path>
-    </svg>
   </div>
 </section>
 
@@ -1364,7 +1804,7 @@
     <div class="about-team-header">
       <div class="about-team-label">הסיבות לבחור בנו</div>
       <h2 class="about-team-title">למה <span class="about-team-title-gold">פרד"ס חקירות</span>?</h2>
-      <p class="about-team-subtitle">אנו מביאים עמנו ניסיון מודיעיני עמוק, טכנולוגיה מתקדמת ורמת מקצועיות שאין לה תחרות — כדי שתקבלו תמונת מצב מדויקת, בזמן, ובשיקול דעת מלא.</p>
+      <p class="about-team-subtitle">צוות חוקרים פרטיים מורשים עם ניסיון מבצעי, שמביאים יכולות מודיעין אמיתיות לכל תיק — בדיוק, בדיסקרטיות ובמסגרת החוק.</p>
     </div>
 
     <!-- Values Grid -->
