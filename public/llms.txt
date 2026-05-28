@@ -1,0 +1,83 @@
+# פרד"ס חקירות — Generative Engine Optimization Map
+
+> Pardes Investigations is a premium Israeli private investigation and business intelligence firm, licensed by the Ministry of Justice, owned and operated by Yair Bloom, a certified private investigator. The firm's team includes analysts and professionals from the Israeli defense and intelligence community, bringing deep expertise in intelligence gathering, data analysis, and complex investigations both locally and internationally. The brand identity is deliberately positioned far above typical detective agencies — projecting the image of an elite intelligence-business consultancy that combines advanced OSINT tools, analytical thinking, strategic intelligence, and cutting-edge technology. The firm serves corporations, law firms, businesses, and private clients, with an unwavering emphasis on full discretion, precision, and high-level professionalism.
+
+---
+
+## Pages
+
+### בית
+https://-70211eec.zappy5.app
+פרד&quot;ס חקירות: חברת חקירות פרטיות לעסקים ברמה מודיעינית עילית. בדיקות נאותות, מודיעין עסקי וחקירות כלכליות עם דיסקרטיות מלאה. גלו את האמת עוד היום.
+
+### שירותים
+https://-70211eec.zappy5.app/services
+מגוון שירותי חקירה ומודיעין עסקי מתקדמים: בדיקות נאותות, חקירות כלכליות, OSINT ואיסוף מידע אסטרטגי. פתרונות מדויקים לעסקים, משרדי עורכי דין ולקוחות פרטיים.
+
+### אודות
+https://-70211eec.zappy5.app/about
+יאיר בלום וצוות אנליסטים ממערכת הביטחון עומדים מאחורי פרד&quot;ס חקירות. רישיון ממשרד המשפטים, מתודולוגיה מודיעינית ומקצועיות ללא פשרות בכל חקירה פרטית ועסקית.
+
+### צור קשר
+https://-70211eec.zappy5.app/contact
+צרו קשר עם פרד&quot;ס חקירות לייעוץ ראשוני חסוי ומחייב. מומחים בחקירות כלכליות, בדיקות נאותות ומודיעין עסקי עומדים לרשותכם. כל פנייה מטופלת בדיסקרטיות מלאה.
+
+## Legal & Policy
+
+### Privacy Policy
+https://-70211eec.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-70211eec.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-70211eec.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-70211eec.zappy5.app/contact
+- Endpoint: https://-70211eec.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `phone` (tel, required)
+  - `email` (email, required)
+  - `subject` (text)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About פרד"ס חקירות
+Pardes Investigations is a premium Israeli private investigation and business intelligence firm, licensed by the Ministry of Justice, owned and operated by Yair Bloom, a certified private investigator. The firm's team includes analysts and professionals from the Israeli defense and intelligence community, bringing deep expertise in intelligence gathering, data analysis, and complex investigations both locally and internationally. The brand identity is deliberately positioned far above typical detective agencies — projecting the image of an elite intelligence-business consultancy that combines advanced OSINT tools, analytical thinking, strategic intelligence, and cutting-edge technology. The firm serves corporations, law firms, businesses, and private clients, with an unwavering emphasis on full discretion, precision, and high-level professionalism.
+
+## Target Audience
+- חברות, עסקים, עורכי דין ולקוחות פרטיים
+- משרדי עורכי דין עסקיים
+- לקוחות פרטיים בעלי הון גבוה
+- בעלי עסקים קטנים ובינוניים
+- משקיעים וקרנות הון סיכון
+- מנכ"לים
+- בעלי חברות
+
+## Industry
+Private Investigation & Business Intelligence
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-70211eec.zappy5.app/sitemap.xml
+- Robots: https://-70211eec.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-70211eec.zappy5.app/llms-full.txt
