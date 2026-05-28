@@ -252,6 +252,449 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  overflow: visible;
+  min-height: 100vh;
+  background-color: #0D0F14;
+  background-image:
+    radial-gradient(ellipse at 70% 20%, rgba(200,168,75,0.07) 0%, transparent 55%),
+    radial-gradient(ellipse at 20% 80%, rgba(124,58,237,0.06) 0%, transparent 50%),
+    linear-gradient(160deg, #0D0F14 0%, #111318 60%, #0A0C10 100%);
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  padding: 0 0 60px 0;
+  direction: rtl;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* Crosshair decoration */
+.index-hero-section .hero-crosshair {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 180px;
+  height: 180px;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 1;
+}
+
+/* Dot grid decoration */
+.index-hero-section .hero-dot-grid {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  width: 420px;
+  height: 300px;
+  background-image: radial-gradient(circle, rgba(200,168,75,0.05) 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 1;
+}
+
+/* Inner layout */
+.index-hero-section .hero-inner {
+  position: relative;
+  z-index: 10;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 140px 40px 40px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  direction: rtl;
+}
+
+/* ── RIGHT COLUMN: Content ── */
+.index-hero-section .hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  text-align: right;
+}
+
+/* Label */
+.index-hero-section .hero-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #C8A84B;
+  direction: rtl;
+}
+
+.index-hero-section .label-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #C8A84B;
+  flex-shrink: 0;
+  box-shadow: 0 0 8px rgba(200,168,75,0.6);
+}
+
+/* Headline */
+.index-hero-section .hero-headline {
+  font-size: clamp(2.8rem, 5vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  margin: 0;
+  color: var(--text-light);
+}
+
+.index-hero-section .headline-gold {
+  background: linear-gradient(90deg, #A07830 0%, #C8A84B 30%, #E8C55A 50%, #C8A84B 70%, #A07830 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Subtitle */
+.index-hero-section .hero-subtitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--text-light);
+  margin: 0;
+  border-inline-start: 3px solid #C8A84B;
+  padding-inline-start: 16px;
+}
+
+/* Body */
+.index-hero-section .hero-body {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #A0A5B4;
+  margin: 0;
+  max-width: 480px;
+}
+
+/* CTAs */
+.index-hero-section .hero-ctas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  direction: rtl;
+}
+
+.index-hero-section .hero-btn-primary {
+  background: #C8A84B;
+  color: #0D0F14;
+  padding: 14px 32px;
+  border-radius: 4px;
+  border: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 8px 32px rgba(200,168,75,0.35);
+}
+
+.index-hero-section .hero-btn-primary:hover {
+  background: #E8C55A;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(200,168,75,0.5);
+}
+
+.index-hero-section .hero-btn-secondary {
+  background: transparent;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 4px;
+  border: 1px solid rgba(255,255,255,0.3);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  direction: rtl;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.index-hero-section .hero-btn-secondary:hover {
+  border-color: #C8A84B;
+  color: #C8A84B;
+  transform: translateY(-2px);
+}
+
+/* Trust badges */
+.index-hero-section .hero-badges {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(200,168,75,0.15);
+  width: 100%;
+  direction: rtl;
+}
+
+.index-hero-section .trust-badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #8A8F9E;
+  letter-spacing: 0.02em;
+  direction: rtl;
+}
+
+.index-hero-section .trust-badge svg {
+  flex-shrink: 0;
+  color: #C8A84B;
+}
+
+/* ── LEFT COLUMN: Image ── */
+.index-hero-section .hero-image-col {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index-hero-section .hero-image-frame {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+  border-radius: 2px;
+  overflow: hidden;
+  filter: grayscale(20%) contrast(1.1);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6), 0 0 0 1px rgba(200,168,75,0.15);
+}
+
+.index-hero-section .hero-image-frame img {
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Gradient overlay on image */
+.index-hero-section .image-overlay-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(13,15,20,0.1) 0%, rgba(13,15,20,0.55) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Gold accent line */
+.index-hero-section .image-gold-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #A07830 0%, #C8A84B 40%, #E8C55A 60%, #A07830 100%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Corner frame decorations */
+.index-hero-section .frame-corner {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.index-hero-section .frame-corner--tl {
+  top: 12px;
+  left: 12px;
+  border-top: 2px solid rgba(200,168,75,0.7);
+  border-left: 2px solid rgba(200,168,75,0.7);
+}
+
+.index-hero-section .frame-corner--tr {
+  top: 12px;
+  right: 12px;
+  border-top: 2px solid rgba(200,168,75,0.7);
+  border-right: 2px solid rgba(200,168,75,0.7);
+}
+
+.index-hero-section .frame-corner--bl {
+  bottom: 18px;
+  left: 12px;
+  border-bottom: 2px solid rgba(200,168,75,0.7);
+  border-left: 2px solid rgba(200,168,75,0.7);
+}
+
+.index-hero-section .frame-corner--br {
+  bottom: 18px;
+  right: 12px;
+  border-bottom: 2px solid rgba(200,168,75,0.7);
+  border-right: 2px solid rgba(200,168,75,0.7);
+}
+
+/* Floating intel status card */
+.index-hero-section .intel-card {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  background: rgba(20, 23, 32, 0.92);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(200,168,75,0.3);
+  border-radius: 4px;
+  padding: 12px 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  direction: rtl;
+  z-index: 20;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+.index-hero-section .intel-card-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #00D4FF;
+  flex-shrink: 0;
+  box-shadow: 0 0 10px rgba(0,212,255,0.7);
+  animation: pulseDot 2s ease-in-out infinite;
+}
+
+@keyframes pulseDot {
+  0%, 100% { box-shadow: 0 0 6px rgba(0,212,255,0.6); }
+  50% { box-shadow: 0 0 16px rgba(0,212,255,0.9); }
+}
+
+.index-hero-section .intel-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  direction: rtl;
+}
+
+.index-hero-section .intel-card-label {
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8A8F9E;
+}
+
+.index-hero-section .intel-card-value {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #00D4FF;
+}
+
+/* Bottom divider */
+.index-hero-section .hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.index-hero-section .hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1024px) {
+  .index-hero-section .hero-inner {
+    gap: 40px;
+    padding: 130px 28px 40px 28px;
+  }
+  .index-hero-section .hero-image-frame img {
+    height: 460px;
+  }
+}
+
+@media (max-width: 768px) {
+  .index-hero-section {
+    min-height: auto;
+    padding-bottom: 60px;
+  }
+  .index-hero-section .hero-inner {
+    grid-template-columns: 1fr;
+    padding: 110px 16px 40px 16px;
+    gap: 36px;
+  }
+  .index-hero-section .hero-content {
+    align-items: flex-start;
+    gap: 18px;
+  }
+  .index-hero-section .hero-headline {
+    font-size: 2.6rem;
+  }
+  .index-hero-section .hero-subtitle {
+    font-size: 1rem;
+  }
+  .index-hero-section .hero-body {
+    max-width: 100%;
+  }
+  .index-hero-section .hero-image-col {
+    order: -1;
+  }
+  .index-hero-section .hero-image-frame img {
+    height: 280px;
+  }
+  .index-hero-section .intel-card {
+    bottom: -14px;
+    right: 10px;
+    padding: 10px 14px;
+  }
+  .index-hero-section .hero-crosshair {
+    width: 120px;
+    height: 120px;
+    top: 20px;
+    left: 10px;
+  }
+  .index-hero-section .hero-dot-grid {
+    width: 220px;
+    height: 180px;
+  }
+  .index-hero-section .hero-ctas {
+    flex-wrap: wrap;
+  }
+  .index-hero-section .hero-badges {
+    gap: 10px 16px;
+  }
+}
+/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:index-hero */
+.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 48px !important; line-height: 1.2 !important; }
+@media (max-width: 1024px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 36px !important; }
+}
+@media (max-width: 768px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
+}
+
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "70211eec-1fe4-469a-bf33-9891dd7a3035"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -813,100 +1256,98 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
-  <!-- Background Image Layer -->
-  <div class="index-hero-bg">
-    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Cinematic dark intelligence command center: a dramatic wide-angle view of a high-tech operations room with multiple glowing monitors displaying data analytics, maps, and surveillance feeds. Deep shadows, cold blue-cyan light emanating from screens, gold accent lighting on metallic surfaces. Atmosphere of secrecy, precision, and elite intelligence work. No people visible — pure environment, moody noir aesthetic, ultra-high-end corporate intelligence firm." width="1200" height="700" src="/assets/site-index-hero-image-1.webp" alt="פרד&quot;ס חקירות - מרכז מודיעין עסקי מתקדם" class="index-hero-img">
-  </div>
+    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="side-by-side" data-zappy-section="true">
+  <!-- Decorative crosshair motif -->
+  <svg class="hero-crosshair" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="90" cy="90" r="70" stroke="#C8A84B" stroke-width="1" opacity="0.18"></circle>
+    <circle cx="90" cy="90" r="50" stroke="#C8A84B" stroke-width="0.5" opacity="0.12"></circle>
+    <line x1="90" y1="0" x2="90" y2="40" stroke="#C8A84B" stroke-width="1" opacity="0.22"></line>
+    <line x1="90" y1="140" x2="90" y2="180" stroke="#C8A84B" stroke-width="1" opacity="0.22"></line>
+    <line x1="0" y1="90" x2="40" y2="90" stroke="#C8A84B" stroke-width="1" opacity="0.22"></line>
+    <line x1="140" y1="90" x2="180" y2="90" stroke="#C8A84B" stroke-width="1" opacity="0.22"></line>
+    <circle cx="90" cy="90" r="4" fill="#C8A84B" opacity="0.25"></circle>
+  </svg>
 
-  <!-- Scrim Overlay -->
-  <div class="index-hero-scrim" aria-hidden="true"></div>
+  <!-- Dot grid decorative pattern -->
+  <div class="hero-dot-grid" aria-hidden="true"></div>
 
-  <!-- Crosshair Decorative Motif -->
-  <div class="index-hero-crosshair" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" width="180" height="180">
-      <circle cx="90" cy="90" r="70" stroke="#C8A84B" stroke-width="1" opacity="0.18"></circle>
-      <circle cx="90" cy="90" r="44" stroke="#C8A84B" stroke-width="0.75" opacity="0.12"></circle>
-      <line x1="90" y1="0" x2="90" y2="36" stroke="#C8A84B" stroke-width="1" opacity="0.22"></line>
-      <line x1="90" y1="144" x2="90" y2="180" stroke="#C8A84B" stroke-width="1" opacity="0.22"></line>
-      <line x1="0" y1="90" x2="36" y2="90" stroke="#C8A84B" stroke-width="1" opacity="0.22"></line>
-      <line x1="144" y1="90" x2="180" y2="90" stroke="#C8A84B" stroke-width="1" opacity="0.22"></line>
-      <circle cx="90" cy="90" r="3" fill="#C8A84B" opacity="0.3"></circle>
-    </svg>
-  </div>
-
-  <!-- Dot Grid Decorative Pattern -->
-  <div class="index-hero-dot-grid" aria-hidden="true"></div>
-
-  <!-- Content Overlay -->
-  <div class="index-hero-content">
-    <div class="index-hero-container">
-
-      <!-- Pre-headline label -->
-      <div class="index-hero-label">
-        <span class="index-hero-label-line" aria-hidden="true"></span>
-        <span class="index-hero-label-text">חוקר פרטי מורשה | רישיון משרד המשפטים</span>
+  <div class="hero-inner">
+    <!-- RIGHT: Text content -->
+    <div class="hero-content">
+      <!-- Label -->
+      <div class="hero-label">
+        <span class="label-dot"></span>
+        <span>חוקר פרטי מורשה | רישיון משרד המשפטים</span>
       </div>
 
       <!-- Main Headline -->
-      <h1 class="index-hero-h1">
-        פרד"ס <span class="index-hero-h1-accent">חקירות</span>
+      <h1 class="hero-headline">
+        <span class="headline-gold">פרד"ס</span> <span class="headline-gold">חקירות</span>
       </h1>
 
       <!-- Subtitle -->
-      <h3 class="index-hero-subtitle">
-        מודיעין עסקי מתקדם. חקירות מורכבות. דיסקרטיות מוחלטת.
-      </h3>
+      <h3 class="hero-subtitle">חקירות פרטיות מקצועיות. מודיעין עסקי עילאי. דיסקרטיות מוחלטת.</h3>
 
-      <!-- Body Copy -->
-      <p class="index-hero-body">
-        גוף מודיעיני-עסקי מתקדם המשלב ניסיון חקירתי, יכולות אנליזה אסטרטגית וטכנולוגיה חדישה — לשירות חברות, עורכי דין ולקוחות פרטיים.
-      </p>
+      <!-- Body paragraph -->
+      <p class="hero-body">משרד חקירות פרטיות מוביל המתמחה בחקירות מורכבות ומודיעין עסקי ברמה הגבוהה ביותר — לשירות חברות, עורכי דין ולקוחות פרטיים.</p>
 
       <!-- CTA Buttons -->
-      <div class="index-hero-ctas">
-        <a href="#contact" class="index-hero-btn-primary">לייעוץ ראשוני</a>
-        <a href="#services" class="index-hero-btn-secondary">
-          <span>השירותים שלנו</span>
-          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M10 8L6 4M10 8L6 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn-primary hero-btn-primary">לייעוץ ראשוני</a>
+        <a href="#services" class="btn-secondary hero-btn-secondary">
+          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          השירותים שלנו
         </a>
       </div>
 
-      <!-- Trust Badges -->
-      <div class="index-hero-trust">
-        <div class="index-hero-trust-item">
-          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 1L10.09 5.26L14.82 5.97L11.41 9.29L12.18 14L8 11.77L3.82 14L4.59 9.29L1.18 5.97L5.91 5.26L8 1Z" stroke="#C8A84B" stroke-width="1.2" stroke-linejoin="round" fill="none"></path>
-          </svg>
+      <!-- Trust badges -->
+      <div class="hero-badges">
+        <div class="trust-badge">
+          <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8A84B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
           <span>מורשה ומוסמך</span>
         </div>
-        <div class="index-hero-trust-sep" aria-hidden="true"></div>
-        <div class="index-hero-trust-item">
-          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="8" cy="8" r="6.5" stroke="#C8A84B" stroke-width="1.2"></circle>
-            <path d="M5.5 8L7.2 9.7L10.5 6.3" stroke="#C8A84B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
+        <div class="trust-badge">
+          <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8A84B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
           <span>פעילות בארץ ובחו"ל</span>
         </div>
-        <div class="index-hero-trust-sep" aria-hidden="true"></div>
-        <div class="index-hero-trust-item">
-          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 1.5C5.5 1.5 3.5 3.5 3.5 6C3.5 9.5 8 14.5 8 14.5C8 14.5 12.5 9.5 12.5 6C12.5 3.5 10.5 1.5 8 1.5Z" stroke="#C8A84B" stroke-width="1.2" fill="none"></path>
-            <circle cx="8" cy="6" r="1.5" stroke="#C8A84B" stroke-width="1.2" fill="none"></circle>
-          </svg>
+        <div class="trust-badge">
+          <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8A84B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
           <span>דיסקרטיות מוחלטת</span>
         </div>
+        <div class="trust-badge">
+          <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8A84B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+          <span>ניתוח מודיעיני מתקדם</span>
+        </div>
       </div>
+    </div>
 
+    <!-- LEFT: Image column -->
+    <div class="hero-image-col">
+      <div class="hero-image-frame">
+        <div class="frame-corner frame-corner--tl" aria-hidden="true"></div>
+        <div class="frame-corner frame-corner--tr" aria-hidden="true"></div>
+        <div class="frame-corner frame-corner--bl" aria-hidden="true"></div>
+        <div class="frame-corner frame-corner--br" aria-hidden="true"></div>
+        <img alt="פרד&quot;ס חקירות - מרכז מודיעין עסקי מתקדם" src="/assets/site-index-hero-image-1.webp" data-placeholder="index-hero-image-1" data-context="Cinematic dark intelligence command center: a dramatic wide-angle view of a high-tech operations room with multiple glowing monitors displaying data analytics, maps, and surveillance feeds. Deep shadows, cold blue-cyan light emanating from screens, gold accent lighting on metallic surfaces. Atmosphere of secrecy, precision, and elite intelligence work. No people visible — pure environment, moody noir aesthetic, ultra-high-end corporate intelligence firm." style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+        <div class="image-overlay-gradient" aria-hidden="true"></div>
+        <!-- Gold accent line bottom -->
+        <div class="image-gold-line" aria-hidden="true"></div>
+      </div>
+      <!-- Floating intel card -->
+      <div class="intel-card" aria-hidden="true">
+        <div class="intel-card-dot"></div>
+        <div class="intel-card-text">
+          <span class="intel-card-label">STATUS</span>
+          <span class="intel-card-value">ACTIVE INTEL</span>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- Bottom Divider -->
-  <div class="index-hero-divider-wrapper">
+  <!-- Bottom divider -->
+  <div class="hero-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,60 L0,20 L1200,0 L1200,60 Z" fill="#0D0F14"></path>
+      <path d="M0,60 L0,30 Q100,20 200,28 T400,24 Q500,28 600,20 T800,26 Q900,22 1000,28 T1200,22 L1200,60 Z" fill="#0D0F14"></path>
     </svg>
   </div>
 </section>
@@ -921,7 +1362,7 @@
     <div class="index-features-section__header">
       <span class="index-features-section__label">יכולות הליבה שלנו</span>
       <h2 class="index-features-section__title">מודיעין מתקדם.<br>תוצאות מדויקות.</h2>
-      <p class="index-features-section__subtitle">פרד"ס חקירות משלב ניסיון מבצעי מעמיק, טכנולוגיה מתקדמת וחשיבה אנליטית אסטרטגית — לפתרון אתגרים מורכבים עבור עסקים, עורכי דין ולקוחות פרטיים.</p>
+      <p class="index-features-section__subtitle">פרד"ס חקירות הוא משרד חקירות פרטיות מוביל, המתמחה בחקירות מורכבות ומודיעין עסקי ברמה גבוהה. אנו משלבים ניסיון חקירתי מעשי, טכנולוגיה מתקדמת וחשיבה אסטרטגית — לשירות עסקים, עורכי דין ולקוחות פרטיים.</p>
     </div>
 
     <!-- Features Grid -->
