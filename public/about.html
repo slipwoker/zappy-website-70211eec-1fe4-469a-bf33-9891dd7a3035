@@ -252,6 +252,323 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.about-team-section {
+  position: relative;
+  background-color: #0D0F14;
+  background-image:
+    radial-gradient(rgba(200,168,75,0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+  color: var(--text-light);
+  padding: 100px 24px 80px;
+  direction: rtl;
+  overflow: visible;
+}
+
+/* Decorative background pattern overlay */
+.about-team-section .about-team-bg-pattern {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(ellipse at 10% 20%, rgba(200,168,75,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 90% 80%, rgba(0,212,255,0.04) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Crosshair decorative motif */
+.about-team-section .about-team-crosshair {
+  position: absolute;
+  top: 40px;
+  inset-inline-start: 60px;
+  width: 180px;
+  height: 180px;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.7;
+}
+
+/* Main container */
+.about-team-section .about-team-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Section Header */
+.about-team-section .about-team-header {
+  text-align: center;
+  margin-bottom: 56px;
+  max-width: 680px;
+  margin-inline: auto;
+  margin-bottom: 56px;
+}
+
+.about-team-section .about-team-label {
+  display: inline-block;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #C8A84B;
+  border: 1px solid rgba(200,168,75,0.35);
+  padding: 5px 16px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  background: rgba(200,168,75,0.06);
+}
+
+.about-team-section .about-team-title {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-light);
+  margin: 0 0 16px;
+  text-align: center;
+}
+
+.about-team-section .about-team-title-gold {
+  background: linear-gradient(90deg, #C8A84B, #E8C55A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.about-team-section .about-team-subtitle {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  text-align: center;
+  margin: 0;
+}
+
+/* Values Grid */
+.about-team-section .about-team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 56px;
+  direction: rtl;
+}
+
+/* Individual Card */
+.about-team-section .about-team-card {
+  background: #141720;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 4px;
+  padding: 28px 24px 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.about-team-section .about-team-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  inset-inline-start: 0;
+  width: 3px;
+  height: 0;
+  background: linear-gradient(180deg, #C8A84B, rgba(200,168,75,0.2));
+  transition: height 0.35s ease;
+  border-radius: 0 0 2px 2px;
+}
+
+.about-team-section .about-team-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(200,168,75,0.25);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.45), 0 0 30px rgba(200,168,75,0.08);
+}
+
+.about-team-section .about-team-card:hover::before {
+  height: 100%;
+}
+
+/* Card Icon */
+.about-team-section .about-team-card-icon {
+  width: 56px;
+  height: 56px;
+  background: rgba(200,168,75,0.08);
+  border: 1px solid rgba(200,168,75,0.2);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  color: #C8A84B;
+  flex-shrink: 0;
+  transition: background 0.3s ease;
+}
+
+.about-team-section .about-team-card:hover .about-team-card-icon {
+  background: rgba(200,168,75,0.14);
+}
+
+/* Card Content */
+.about-team-section .about-team-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-team-section .about-team-card-title {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-light);
+  margin: 0 0 10px;
+  text-align: right;
+}
+
+.about-team-section .about-team-card-text {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0 0 16px;
+  text-align: right;
+  flex: 1;
+}
+
+.about-team-section .about-team-card-rule {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Bottom Banner */
+.about-team-section .about-team-banner {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  border: 1px solid rgba(200,168,75,0.15);
+}
+
+.about-team-section .about-team-banner-image-wrap {
+  position: relative;
+  width: 100%;
+  height: 280px;
+}
+
+.about-team-section .about-team-banner-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(30%) contrast(1.05);
+  border-radius: 4px;
+}
+
+.about-team-section .about-team-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(13,15,20,0.92) 0%,
+    rgba(13,15,20,0.7) 50%,
+    rgba(13,15,20,0.4) 100%
+  );
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.about-team-section .about-team-banner-text {
+  position: absolute;
+  inset-inline-end: auto;
+  inset-inline-start: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 48px;
+  z-index: 2;
+  max-width: 600px;
+}
+
+.about-team-section .about-team-banner-quote {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-bottom: 14px;
+  text-align: right;
+}
+
+.about-team-section .about-team-banner-attribution {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 0.875rem;
+  color: #C8A84B;
+  letter-spacing: 0.05em;
+  text-align: right;
+}
+
+/* ── RESPONSIVE ── */
+
+@media (max-width: 1024px) {
+  .about-team-section .about-team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-team-section {
+    padding: 80px 16px 60px;
+  }
+
+  .about-team-section .about-team-crosshair {
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    inset-inline-start: 10px;
+  }
+
+  .about-team-section .about-team-header {
+    margin-bottom: 36px;
+  }
+
+  .about-team-section .about-team-title {
+    font-size: 1.6rem;
+  }
+
+  .about-team-section .about-team-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px;
+  }
+
+  .about-team-section .about-team-card {
+    padding: 20px 18px;
+  }
+
+  .about-team-section .about-team-banner-image-wrap {
+    height: 220px;
+  }
+
+  .about-team-section .about-team-banner-text {
+    padding: 0 20px;
+    max-width: 100%;
+  }
+
+  .about-team-section .about-team-banner-quote {
+    font-size: 1rem;
+  }
+
+  .about-team-section .about-team-banner-attribution {
+    font-size: 0.8rem;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "70211eec-1fe4-469a-bf33-9891dd7a3035"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -1028,117 +1345,182 @@
 </section>
 
 <section class="about-team-section" data-layout-spec="אודות-team" dir="rtl">
-  <!-- Dot grid background decoration -->
+  <!-- Decorative dot grid background -->
   <div class="about-team-bg-pattern" aria-hidden="true"></div>
+
+  <!-- Decorative crosshair motif -->
+  <div class="about-team-crosshair" aria-hidden="true">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" width="180" height="180">
+      <circle cx="90" cy="90" r="70" stroke="#C8A84B" stroke-width="1" opacity="0.18"></circle>
+      <circle cx="90" cy="90" r="45" stroke="#C8A84B" stroke-width="0.8" opacity="0.12"></circle>
+      <line x1="90" y1="0" x2="90" y2="180" stroke="#C8A84B" stroke-width="0.8" opacity="0.15"></line>
+      <line x1="0" y1="90" x2="180" y2="90" stroke="#C8A84B" stroke-width="0.8" opacity="0.15"></line>
+      <circle cx="90" cy="90" r="4" fill="#C8A84B" opacity="0.25"></circle>
+    </svg>
+  </div>
 
   <div class="about-team-container">
     <!-- Section Header -->
     <div class="about-team-header">
-      <div class="about-team-label">
-        <span class="about-team-label-line"></span>
-        <span class="about-team-label-text">הצוות שלנו</span>
-        <span class="about-team-label-line"></span>
-      </div>
-      <h2 class="about-team-title">המומחים מאחורי <span class="about-team-title-accent">פרד"ס חקירות</span></h2>
-      <p class="about-team-subtitle">צוות אנליסטים ואנשי מקצוע יוצאי מערכת הביטחון, המביאים ניסיון מבצעי עמוק בתחומי מודיעין עסקי, איסוף מידע וחקירות מורכבות — בארץ ובחו"ל.</p>
+      <div class="about-team-label">הסיבות לבחור בנו</div>
+      <h2 class="about-team-title">למה <span class="about-team-title-gold">פרד"ס חקירות</span>?</h2>
+      <p class="about-team-subtitle">אנו מביאים עמנו ניסיון מודיעיני עמוק, טכנולוגיה מתקדמת ורמת מקצועיות שאין לה תחרות — כדי שתקבלו תמונת מצב מדויקת, בזמן, ובשיקול דעת מלא.</p>
     </div>
 
-    <!-- Team Grid -->
+    <!-- Values Grid -->
     <div class="about-team-grid">
 
-      <!-- Member 1 -->
+      <!-- Card 1: Licensed -->
       <article class="about-team-card">
-        <div class="about-team-card-image-wrap">
-          <img loading="lazy" decoding="async" data-placeholder="about-team-image-1" data-context="Professional headshot portrait of a serious Israeli male private investigator, Yair Bloom, in his 40s, wearing a dark suit, confident direct gaze, against a dark moody cinematic background with subtle blue-cyan lighting, intelligence agency aesthetic, high contrast noir photography" width="300" height="300" src="/assets/site-about-team-image-1.webp" alt="יאיר בלום – מנכ&quot;ל ובעלים, חוקר פרטי מורשה">
-          <div class="about-team-card-image-overlay" aria-hidden="true"></div>
-          <div class="about-team-card-badge">מורשה משרד המשפטים</div>
+        <div class="about-team-card-icon">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40" aria-hidden="true">
+            <rect x="8" y="4" width="32" height="40" rx="3" stroke="currentColor" stroke-width="1.8"></rect>
+            <path d="M16 16h16M16 22h16M16 28h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+            <circle cx="34" cy="36" r="7" fill="#0D0F14" stroke="#C8A84B" stroke-width="1.5"></circle>
+            <path d="M31 36l2 2 4-4" stroke="#C8A84B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
         </div>
-        <div class="about-team-card-body">
-          <div class="about-team-card-top">
-            <h3 class="about-team-card-name">יאיר בלום</h3>
-            <span class="about-team-card-role">מנכ"ל ובעלים | חוקר פרטי מורשה</span>
-          </div>
-          <p class="about-team-card-bio">בעל רישיון חוקר פרטי מטעם משרד המשפטים, יאיר מוביל את המשרד בשילוב ייחודי של חקירה קלאסית, מודיעין עסקי מתקדם וחשיבה אנליטית אסטרטגית. מייסד ומנהל פרד"ס חקירות מתוך ראייה של גוף מודיעיני-עסקי מהשורה הראשונה.</p>
-          <div class="about-team-card-tags">
-            <span class="about-team-tag">מודיעין עסקי</span>
-            <span class="about-team-tag">חקירות מורכבות</span>
-            <span class="about-team-tag">OSINT</span>
+        <div class="about-team-card-content">
+          <h3 class="about-team-card-title">רישיון משרד המשפטים</h3>
+          <p class="about-team-card-text">פרד"ס חקירות פועלת בהיתר מלא ממשרד המשפטים, בהתאם לכל דרישות החוק. הפעילות שלנו שקופה, אחראית ומוסדרת — לביטחון מלא של לקוחותינו.</p>
+          <div class="about-team-card-rule" aria-hidden="true">
+            <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 12" fill="none" xmlns="http://www.w3.org/2000/svg" width="120" height="12">
+              <line x1="0" y1="6" x2="52" y2="6" stroke="#C8A84B" stroke-width="0.8" opacity="0.6"></line>
+              <rect x="54" y="3" width="6" height="6" transform="rotate(45 57 6)" fill="#C8A84B" opacity="0.7"></rect>
+              <line x1="62" y1="6" x2="120" y2="6" stroke="#C8A84B" stroke-width="0.8" opacity="0.6"></line>
+            </svg>
           </div>
         </div>
-        <!-- Decorative gold line -->
-        <div class="about-team-card-accent-line" aria-hidden="true"></div>
       </article>
 
-      <!-- Member 2 -->
+      <!-- Card 2: Experience -->
       <article class="about-team-card">
-        <div class="about-team-card-image-wrap">
-          <img loading="lazy" decoding="async" data-placeholder="about-team-image-2" data-context="Professional headshot portrait of a focused Israeli male intelligence analyst in his 30s, former military intelligence background, wearing a dark business shirt, serious expression, cinematic dark background with subtle cyan accent lighting, noir intelligence aesthetic, high contrast" width="300" height="300" src="/assets/site-about-team-image-2.webp" alt="אנליסט מודיעיני בכיר – יוצא מערכת הביטחון">
-          <div class="about-team-card-image-overlay" aria-hidden="true"></div>
-          <div class="about-team-card-badge">יוצא מע"מ</div>
+        <div class="about-team-card-icon">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40" aria-hidden="true">
+            <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.8"></circle>
+            <path d="M24 14v10l6 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle cx="24" cy="24" r="2" fill="currentColor"></circle>
+          </svg>
         </div>
-        <div class="about-team-card-body">
-          <div class="about-team-card-top">
-            <h3 class="about-team-card-name">ר.מ.</h3>
-            <span class="about-team-card-role">אנליסט מודיעיני בכיר</span>
-          </div>
-          <p class="about-team-card-bio">יוצא יחידת מודיעין מובחרת עם ניסיון רב-שנתי באיסוף ועיבוד מידע, ניתוח נתונים ומיפוי רשתות. מתמחה בבדיקות נאותות, חקירות כלכליות ואיתור מידע בסביבות דיגיטליות ופיזיות כאחד.</p>
-          <div class="about-team-card-tags">
-            <span class="about-team-tag">ניתוח נתונים</span>
-            <span class="about-team-tag">בדיקות נאותות</span>
-            <span class="about-team-tag">מיפוי רשתות</span>
+        <div class="about-team-card-content">
+          <h3 class="about-team-card-title">ניסיון מודיעיני עמוק</h3>
+          <p class="about-team-card-text">הצוות שלנו כולל אנשי מקצוע מקהילת המודיעין והביטחון הישראלי, עם שנים של ניסיון בשטח. אנו מביאים גישה אנליטית ומעמיקה לכל תיק חקירה.</p>
+          <div class="about-team-card-rule" aria-hidden="true">
+            <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 12" fill="none" xmlns="http://www.w3.org/2000/svg" width="120" height="12">
+              <line x1="0" y1="6" x2="52" y2="6" stroke="#C8A84B" stroke-width="0.8" opacity="0.6"></line>
+              <rect x="54" y="3" width="6" height="6" transform="rotate(45 57 6)" fill="#C8A84B" opacity="0.7"></rect>
+              <line x1="62" y1="6" x2="120" y2="6" stroke="#C8A84B" stroke-width="0.8" opacity="0.6"></line>
+            </svg>
           </div>
         </div>
-        <div class="about-team-card-accent-line" aria-hidden="true"></div>
       </article>
 
-      <!-- Member 3 -->
+      <!-- Card 3: Discretion -->
       <article class="about-team-card">
-        <div class="about-team-card-image-wrap">
-          <img loading="lazy" decoding="async" data-placeholder="about-team-image-3" data-context="Professional headshot portrait of a sharp Israeli female intelligence professional in her 30s, former security services background, wearing dark professional attire, calm determined expression, dark cinematic background with gold accent lighting, noir intelligence aesthetic, high contrast photography" width="300" height="300" src="/assets/site-about-team-image-3.webp" alt="מומחית מחקר ומודיעין פתוח – OSINT">
-          <div class="about-team-card-image-overlay" aria-hidden="true"></div>
-          <div class="about-team-card-badge">מומחית OSINT</div>
+        <div class="about-team-card-icon">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40" aria-hidden="true">
+            <path d="M24 6C14 6 6 14 6 24s8 18 18 18 18-8 18-18S34 6 24 6z" stroke="currentColor" stroke-width="1.8"></path>
+            <path d="M14 24c0-5.5 4.5-10 10-10s10 4.5 10 10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+            <line x1="10" y1="10" x2="38" y2="38" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></line>
+          </svg>
         </div>
-        <div class="about-team-card-body">
-          <div class="about-team-card-top">
-            <h3 class="about-team-card-name">מ.כ.</h3>
-            <span class="about-team-card-role">מומחית מחקר ומודיעין פתוח</span>
-          </div>
-          <p class="about-team-card-bio">מומחית בכירה בכלי OSINT וטכנולוגיות מודיעין פתוח, עם רקע בשירות הביטחון הפנים. מובילה פרויקטים של איתור אנשים ונכסים, בדיקות רקע מעמיקות וחקירות פרטיות עבור חברת חקירות פרטיות לעסקים ולקוחות פרטיים.</p>
-          <div class="about-team-card-tags">
-            <span class="about-team-tag">איתור אנשים</span>
-            <span class="about-team-tag">בדיקות רקע</span>
-            <span class="about-team-tag">חקירות דיגיטליות</span>
+        <div class="about-team-card-content">
+          <h3 class="about-team-card-title">שיקול דעת ודיסקרטיות מוחלטת</h3>
+          <p class="about-team-card-text">כל מידע שמגיע אלינו נשמר בסודיות מלאה. אנו מבינים את הרגישות שבכל פנייה ומתחייבים לטפל בה ברמת פרטיות שאין לה תחרות בתעשייה.</p>
+          <div class="about-team-card-rule" aria-hidden="true">
+            <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 12" fill="none" xmlns="http://www.w3.org/2000/svg" width="120" height="12">
+              <line x1="0" y1="6" x2="52" y2="6" stroke="#C8A84B" stroke-width="0.8" opacity="0.6"></line>
+              <rect x="54" y="3" width="6" height="6" transform="rotate(45 57 6)" fill="#C8A84B" opacity="0.7"></rect>
+              <line x1="62" y1="6" x2="120" y2="6" stroke="#C8A84B" stroke-width="0.8" opacity="0.6"></line>
+            </svg>
           </div>
         </div>
-        <div class="about-team-card-accent-line" aria-hidden="true"></div>
       </article>
 
-    </div><!-- /about-team-grid -->
+      <!-- Card 4: Field Investigation -->
+      <article class="about-team-card">
+        <div class="about-team-card-icon">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40" aria-hidden="true">
+            <circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="1.8"></circle>
+            <line x1="29" y1="29" x2="42" y2="42" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line>
+            <line x1="20" y1="12" x2="20" y2="28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.6"></line>
+            <line x1="12" y1="20" x2="28" y2="20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.6"></line>
+          </svg>
+        </div>
+        <div class="about-team-card-content">
+          <h3 class="about-team-card-title">חקירות שטח מקצועיות</h3>
+          <p class="about-team-card-text">חוקרינו מנוסים בעבודת שטח מורכבת — מעקבים, איסוף ראיות, תיעוד מדויק ועדות בבית משפט. אנו מפעילים שיטות מתקדמות תוך שמירה מלאה על המסגרת החוקית.</p>
+          <div class="about-team-card-rule" aria-hidden="true">
+            <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 12" fill="none" xmlns="http://www.w3.org/2000/svg" width="120" height="12">
+              <line x1="0" y1="6" x2="52" y2="6" stroke="#C8A84B" stroke-width="0.8" opacity="0.6"></line>
+              <rect x="54" y="3" width="6" height="6" transform="rotate(45 57 6)" fill="#C8A84B" opacity="0.7"></rect>
+              <line x1="62" y1="6" x2="120" y2="6" stroke="#C8A84B" stroke-width="0.8" opacity="0.6"></line>
+            </svg>
+          </div>
+        </div>
+      </article>
 
-    <!-- Bottom Credibility Bar -->
-    <div class="about-team-credibility">
-      <div class="about-team-cred-item">
-        <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-        <span>רישיון משרד המשפטים</span>
-      </div>
-      <div class="about-team-cred-divider" aria-hidden="true"></div>
-      <div class="about-team-cred-item">
-        <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-        <span>פעילות בינלאומית</span>
-      </div>
-      <div class="about-team-cred-divider" aria-hidden="true"></div>
-      <div class="about-team-cred-item">
-        <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
-        <span>דיסקרטיות מלאה</span>
-      </div>
-      <div class="about-team-cred-divider" aria-hidden="true"></div>
-      <div class="about-team-cred-item">
-        <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
-        <span>יוצאי מערכת הביטחון</span>
+      <!-- Card 5: Premarital Checks -->
+      <article class="about-team-card">
+        <div class="about-team-card-icon">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40" aria-hidden="true">
+            <path d="M24 38s-14-8-14-18a8 8 0 0116 0 8 8 0 0116 0c0 10-18 18-18 18z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path>
+            <path d="M18 20l4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <div class="about-team-card-content">
+          <h3 class="about-team-card-title">בדיקות רקע לפני נישואין</h3>
+          <p class="about-team-card-text">אחד מתחומי המומחיות שלנו — בדיקות רקע מקיפות לפני נישואין. אנו מספקים תמונה מלאה ואמינה שמאפשרת קבלת החלטות מושכלת בשלב הקריטי ביותר בחיים.</p>
+          <div class="about-team-card-rule" aria-hidden="true">
+            <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 12" fill="none" xmlns="http://www.w3.org/2000/svg" width="120" height="12">
+              <line x1="0" y1="6" x2="52" y2="6" stroke="#C8A84B" stroke-width="0.8" opacity="0.6"></line>
+              <rect x="54" y="3" width="6" height="6" transform="rotate(45 57 6)" fill="#C8A84B" opacity="0.7"></rect>
+              <line x1="62" y1="6" x2="120" y2="6" stroke="#C8A84B" stroke-width="0.8" opacity="0.6"></line>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 6: Business Intelligence -->
+      <article class="about-team-card">
+        <div class="about-team-card-icon">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40" aria-hidden="true">
+            <rect x="6" y="30" width="8" height="12" rx="1" stroke="currentColor" stroke-width="1.8"></rect>
+            <rect x="20" y="20" width="8" height="22" rx="1" stroke="currentColor" stroke-width="1.8"></rect>
+            <rect x="34" y="10" width="8" height="32" rx="1" stroke="currentColor" stroke-width="1.8"></rect>
+            <path d="M10 26l10-8 10-6 10-8" stroke="#C8A84B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle cx="38" cy="8" r="2.5" fill="#C8A84B"></circle>
+          </svg>
+        </div>
+        <div class="about-team-card-content">
+          <h3 class="about-team-card-title">מודיעין עסקי מתקדם</h3>
+          <p class="about-team-card-text">אנו מספקים שירותי מודיעין עסקי לחברות, עורכי דין ומשקיעים — בדיקות נאותות, מיפוי שותפים עסקיים, זיהוי סיכונים ו-OSINT מתקדם. המידע הוא הכוח.</p>
+          <div class="about-team-card-rule" aria-hidden="true">
+            <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 12" fill="none" xmlns="http://www.w3.org/2000/svg" width="120" height="12">
+              <line x1="0" y1="6" x2="52" y2="6" stroke="#C8A84B" stroke-width="0.8" opacity="0.6"></line>
+              <rect x="54" y="3" width="6" height="6" transform="rotate(45 57 6)" fill="#C8A84B" opacity="0.7"></rect>
+              <line x1="62" y1="6" x2="120" y2="6" stroke="#C8A84B" stroke-width="0.8" opacity="0.6"></line>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+    </div>
+    <!-- End Values Grid -->
+
+    <!-- Bottom Visual Banner -->
+    <div class="about-team-banner">
+      <div class="about-team-banner-image-wrap">
+        <img data-context="Elite private investigation command center: dark intelligence operations room with multiple screens displaying data analytics, maps, and surveillance feeds. Cinematic noir atmosphere with deep shadows, blue and gold accent lighting, Israeli intelligence aesthetic, ultra-professional, no faces visible, focus on technology and data" width="1200" height="340" src="/assets/private-investigation-business-intelligence-section-אודות-team-about-team-image-1.webp" alt="מרכז פעולות מודיעיניות של פרד&quot;ס חקירות">
+        <div class="about-team-banner-overlay" aria-hidden="true"></div>
+        <div class="about-team-banner-text">
+          <div class="about-team-banner-quote">“המידע הנכון, בזמן הנכון — זה ההבדל שבין הצלחה לכישלון”</div>
+          <div class="about-team-banner-attribution">יאיר בלום, חוקר פרטי מוסמך | מייסד פרד"ס חקירות</div>
+        </div>
       </div>
     </div>
 
-  </div><!-- /about-team-container -->
+  </div>
 </section>
   </main>
   
